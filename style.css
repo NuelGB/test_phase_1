@@ -1,0 +1,52 @@
+body {
+  margin-left: 250px;
+   margin-right: 250px;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border:1px solid #000000;
+}
+
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+
+.fa-search{
+    margin-left:400px;
+    margin-right:0px;
+}
+
+.fa-graduation-cap{
+   padding:0px, 0px, 0px, 10px;
+    margin-left:0px;
+   color:blue  
+}
