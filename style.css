@@ -4,26 +4,21 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  background-color: #fff;
   padding: 10px 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
   top: 0;
   z-index: 1000;
-  border:1px solid #000000;
 }
 
-
-.logo {
-  font-size: 20px;
+.LOGO {
+  font-size: 15px;
+  margin-left: 4px;
   font-weight: bold;
+  color: #000000;
 }
-
 
 .menu {
   list-style: none;
@@ -56,11 +51,19 @@ body {
 
 .cssLayout{
     margin-top:10px;
-    border:1px solid #000000;
     width : 100%;
     height : 350px;
     background-image: url('gambar/csslayout.png');
     background-size: cover;
+}
+
+.startLearn{
+  cursor: pointer;
+  position: relative;
+  left:470px;
+  height: 40px;
+  top:270px;
+  width:120px;
 }
 
     .content-container {
@@ -99,13 +102,20 @@ body {
 
     .cloudHosting{
     margin-top:20px;
-    border:1px solid #000000;
     width : 100%;
     height : 350px;
     background-image: url('gambar/CloudHosting.png');
     background-size: cover;
 }
 
+.order-now-hosting{
+  position: relative;
+  left:30px;
+  height: 45px;
+  top:154px;
+  width:120px;
+  cursor: pointer;
+}
 .cloudHosting-button{
   cursor: pointer;
   position: relative;
@@ -115,16 +125,20 @@ body {
 }
 
 .carbon {
-  margin-top: 10px;
-  border: 1px solid #000000;
-  width: 100%;
-  height: 350px;
-  background-image: url('gambar/carbon.png');
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  padding: 40px;
-  color: #fff;
+ margin-top:20px;
+    width : 100%;
+    height : 350px;
+    background-image: url('gambar/carbon.png');
+    background-size: cover;
+}
+
+.order-now{
+  cursor: pointer;
+  position: relative;
+  left:31px;
+  height: 45px;
+  top:180px;
+  width:123px;
 }
 
 .carbon-content {
@@ -140,16 +154,9 @@ body {
   line-height: 1.6; 
 }
 
-.btn-order {
-  background: #fff;
-  color: #000;
-  padding: 25px 55px;
-  border: black 1px solid;
-  margin-top: 180px;
-  margin-left: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 4px;
+.footer{
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.9); 
 }
 
 .footer-columns {
@@ -190,12 +197,13 @@ body {
 
 .footer-bottom {
   text-align: left;
-  border-top: 1px solid #ccc;
   padding-top: 12px;
   font-size: 12px;
 }
 
 .footer-left {
+  position: relative;
+  bottom:10px;
   margin-top: 20px;
   flex: 2;
   text-align: left;
@@ -207,13 +215,18 @@ body {
 }
 
 .footer-links a {
+  position: relative;
+  bottom:25px;
   margin: 0 10px;
   text-decoration: none; 
   color: #333; 
 }
 
-
 .footer-right {
   flex: 2;
   text-align: right;
+}
+
+.social-media {
+  margin-top: 10px;
 }
