@@ -44,6 +44,10 @@ body {
     margin-right:0px;
 }
 
+.fa-shopping-cart{
+    color: red;
+}
+
 .fa-graduation-cap{
    padding:0px, 0px, 0px, 10px;
     margin-left:0px;
@@ -110,11 +114,106 @@ body {
   width : 100%;
 }
 
-.carbon{
-  margin-top:10px;
-    border:1px solid #000000;
-    width : 100%;
-    height : 350px;
-    background-image: url('gambar/carbon.png');
-    background-size: cover;
+.carbon {
+  margin-top: 10px;
+  border: 1px solid #000000;
+  width: 100%;
+  height: 350px;
+  background-image: url('gambar/carbon.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.carbon-content {
+  max-width: 400px;
+}
+
+.carbon-content h2 {
+  margin-bottom: 15px;
+}
+
+.carbon-content p {
+  margin-bottom: 20px;
+  line-height: 1.6; 
+}
+
+.btn-order {
+  background: #fff;
+  color: #000;
+  padding: 25px 55px;
+  border: black 1px solid;
+  margin-top: 180px;
+  margin-left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: nowrap; 
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 120px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+  font-size: 13px;
+}
+
+.footer-bottom {
+  text-align: left;
+  border-top: 1px solid #ccc;
+  padding-top: 12px;
+  font-size: 12px;
+}
+
+.footer-left {
+  margin-top: 20px;
+  flex: 2;
+  text-align: left;
+}
+
+.footer-links {
+  flex: 2;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none; 
+  color: #333; 
+}
+
+
+.footer-right {
+  flex: 2;
+  text-align: right;
 }
